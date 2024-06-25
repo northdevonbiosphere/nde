@@ -3732,7 +3732,7 @@ body.search-is-visible .s-header__search-inner {
     }
 
     .s-header__nav-wrap .s-header__nav>li::before {
-        content           : counter(ctr, decimal-leading-zero);
+        /*content           : counter(ctr, decimal-leading-zero);*/
         counter-increment : ctr;
         display           : inline;
         font-family       : var(--font-1);
